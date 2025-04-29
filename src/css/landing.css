@@ -1,0 +1,94 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background: #e0f0f8; 
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f2b30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.menu-toggle {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px 20px;
+}
+
+.menu li.active, .menu li:hover {
+    background-color: #3a4a52;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.main-content {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+        url('../img/newbg.png') center center no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 30px;
+    vertical-align: super;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hashtag {
+    margin-top: 30px;
+    font-size: 25px;
+    color: #171717;
+}
