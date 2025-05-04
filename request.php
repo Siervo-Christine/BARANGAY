@@ -8,7 +8,9 @@
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/landingpage.css">
+    <link rel="stylesheet" href="src/css/request.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -23,13 +25,13 @@
                 </div>
             </div>
             <ul class="sidebar-nav">
-                <li class="sidebar-item active">
-                    <a href="landingpage.php" class="sidebar-link" >
+                <li class="sidebar-item">
+                    <a href="landingpage.php" class="sidebar-link">
                         <i class="lni lni-home"></i>
                         <span>Home</span>
                     </a>
                 </li>
-                <li class="sidebar-item">
+                <li class="sidebar-item active">
                     <a href="request.php" class="sidebar-link">
                         <i class="lni lni-pencil"></i>
                         <span>Request</span>
@@ -61,21 +63,6 @@
                 </li>
             </ul>
         </aside>
-
-        <div class="main">
-            <nav class="navbar navbar-expand px-4 py-3">
-                <form action="#" class="d-none d-sm-inline-block">
-                    <!-- Optional form -->
-                </form>
-            </nav>
-        </div>
-
-        <div class="main-content">
-            <img src="src/img/logobarangay.png" alt="Barangay Calangain Logo" class="logo">
-            <h1>WELCOME <span class="small-text">TO</span></h1>
-            <h2>BARANGAY<br>CALANGAIN, LUBAO PAMPANGA</h2>
-            <p class="hashtag">#MiyangkatkapaCalangain</p>
-        </div>
 
     </div>
 
