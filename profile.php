@@ -111,9 +111,7 @@
 
                         <button type="submit" class="submit-btn">Update Profile</button>
                         <br>
-                        <a href="../admin/authentication/admin-class.php?admin_signout">
-                            <button class="out" type="button">Log Out</button>
-                        </a>
+                       <a href="index.php" class="btn btn-danger out">Log Out</a>   
                         <br>
                     </form>
                 </section>
