@@ -46,6 +46,7 @@ include_once 'config/settings-configuration.php';
             <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
             <input type="email" name="email" placeholder="Enter Email" required><br>
             <input type="password" name="password" placeholder="Enter Password" required><br>
+            <a href="forgot.php" class="forgot.php">Forgot Password?</a>
             <button type="submit" name="btn-signin">LOG IN</button>
         </form>
     </div>

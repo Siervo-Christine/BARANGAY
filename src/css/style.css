@@ -151,3 +151,8 @@ color: #222;
     display: block;
     margin: 0 auto 10px auto;
 }
+
+.forgot-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
