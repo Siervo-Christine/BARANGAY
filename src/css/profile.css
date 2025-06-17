@@ -1,9 +1,9 @@
 :root {
     --font-primary: 'Poppins', sans-serif;
     --color-bg: #fff;
-    --color-bg-sidebar: #2c3e50;
+    --color-bg-sidebar: #4E6009;
     --color-bg-hover: rgba(255, 255, 255, 0.075);
-    --color-highlight: #6c757d;
+    --color-highlight: #000000;
     --color-text: #fff;
     --font-size-base: 0.9rem;
     --font-size-logo: 1.15rem;
@@ -330,7 +330,7 @@ button:hover {
 
 /* Active sidebar item style */
 .sidebar-item.active a.sidebar-link {
-    background-color: #34495e; 
+    background-color: #4E6009; 
     border-left: 3px solid var(--color-highlight); 
     font-weight: bold;
     color: var(--color-highlight);

@@ -13,14 +13,16 @@ include_once 'config/settings-configuration.php';
 </head>
 <body>
 
-<div class="background-img">
-    <img src="src/img/newbg.png" alt="Barangay Background">
-</div>
+
 
 <div class="container">
     <header>
         <img src="src/img/logo.png" alt="Barangay Logo" class="logo">
         <nav>
+            <a href="#" id="homeBtn">HOME</a>
+            <a href="#" id="aboutUsBtn">ABOUT US</a>
+            <a href="#" id="contactUsBtn">CONTACT US</a>
+            <a href="#" id="admissionBtn">ADMISSION</a>
             <a href="#" id="loginBtn">LOG IN</a>
             <a href="#" id="signupBtn">SIGN UP</a>
         </nav>

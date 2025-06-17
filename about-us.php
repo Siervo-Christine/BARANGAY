@@ -21,7 +21,7 @@
                     <i class="lni lni-grid-alt" aria-hidden="true"></i>
                 </button>
                 <div class="sidebar-logo">
-                    <a href="#">BARANGAY REQUEST</a>
+                    <a href="#">ADMISSION SYSTEM</a>
                 </div>
             </div>
             <ul class="sidebar-nav">

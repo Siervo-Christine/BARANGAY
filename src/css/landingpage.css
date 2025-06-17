@@ -1,9 +1,9 @@
 :root {
     --font-primary: 'Poppins', sans-serif;
     --color-bg: #fff;
-    --color-bg-sidebar: #2c3e50;
+    --color-bg-sidebar: #4E6009;
     --color-bg-hover: rgba(255, 255, 255, 0.075);
-    --color-highlight: #6c757d;
+    --color-highlight: #000000;
     --color-text: #fff;
     --font-size-base: 0.9rem;
     --font-size-logo: 1.15rem;
@@ -15,6 +15,7 @@
     --spacing-medium: 1.625rem;
     --transition-fast: 0.25s ease-in-out;
     --transition-medium: 0.35s ease-in-out;
+    
 }
 
 *,
@@ -121,51 +122,6 @@ a.sidebar-link:hover {
 
 .navbar-expand .navbar-collapse {
     min-width: 200px;
-}
-
-/* Main content styles */
-.main-content {
-    margin-left: 65px;
-    padding: 2rem;
-    transition: margin-left 0.3s ease;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background: 
-    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-    url('../img/newbg.png') center center no-repeat; 
-}
-
-.logo {
-    max-width: 180px;
-    margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-}
-
-.small-text {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-top: 0.5rem;
-}
-
-.hashtag {
-    margin-top: 1rem;
-    font-style: italic;
-    color: #010101;
-    font-weight: bold;
 }
 
 /* Active sidebar item style */

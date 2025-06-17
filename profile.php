@@ -20,7 +20,7 @@
                     <i class="lni lni-grid-alt" aria-hidden="true"></i>
                 </button>
                 <div class="sidebar-logo">
-                    <a href="landlord_tenant_profile.php">BARANGAY REQUEST</a>
+                    <a href="landlord_tenant_profile.php">TUPAD ADMISSION</a>
                 </div>
             </div>
             <ul class="sidebar-nav">
